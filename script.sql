@@ -10,7 +10,7 @@ CREATE TABLE IF NOT EXISTS softwarePos_db.clientes (
 
 
 
-CREATE TABLE IF NOT EXISTS ventas (
+CREATE TABLE IF NOT EXISTS softwarePos_db.ventas (
   id_ventas INT NOT NULL,
   cliente VARCHAR(45) NOT NULL,
   total VARCHAR(45) NOT NULL,
@@ -19,7 +19,7 @@ CREATE TABLE IF NOT EXISTS ventas (
 
 
 
-CREATE TABLE IF NOT EXISTS pendientes (
+CREATE TABLE IF NOT EXISTS softwarePos_db.pendientes (
   id_ventas INT NOT NULL,
   cliente VARCHAR(45) NOT NULL,
   total VARCHAR(45) NOT NULL,
