@@ -6,9 +6,6 @@ future==0.18.3
 Pillow==9.4.0
 psycopg2==2.9.5
 pypng==0.20220715.0
-PyQt5==5.15.9
-PyQt5-Qt5==5.15.2
-PyQt5-sip==12.11.1
 pyserial==3.5
 python-barcode==0.14.0
 pyusb==1.2.1
