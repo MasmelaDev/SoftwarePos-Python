@@ -3,9 +3,9 @@ CREATE SCHEMA IF NOT EXISTS softwarePos_db;
 
 CREATE TABLE IF NOT EXISTS softwarePos_db.clientes (
   telefono VARCHAR(11) NOT NULL,
-  nombre VARCHAR(45) NULL,
-  direccion VARCHAR(45) NULL,
-  barrio VARCHAR(45) NULL,
+  nombre VARCHAR NULL,
+  direccion VARCHAR NULL,
+  barrio VARCHAR NULL,
   PRIMARY KEY (telefono));
 
 
